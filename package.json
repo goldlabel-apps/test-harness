@@ -1,0 +1,6 @@
+{
+  "name": "tutorial-npm",
+  "scripts": {
+    "start": "clear"
+  }
+}
