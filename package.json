@@ -1,6 +1,6 @@
 {
   "name": "tutorial-npm",
   "scripts": {
-    "start": "clear"
+    "start": "clear && cd app && npm start"
   }
 }
