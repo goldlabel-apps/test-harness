@@ -1,5 +1,6 @@
 import React from "react"
 import "./gold.css"
+import { Counter } from "@listingslab/icon";
 
 // import {Counter} from "@listingslab/icon"
 
