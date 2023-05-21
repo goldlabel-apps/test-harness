@@ -1,4 +1,4 @@
-# Listingslab Test Harness
+# Test Harness
 
 In software development, a test harness is a collection of software and test 
 data used by developers to unit test software models during development. 
