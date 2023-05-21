@@ -1,10 +1,10 @@
 {
   "short_name": "Test Harness",
-  "name": "Test Harness",
+  "name": "Goldlabel Test Harness",
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff",
+  "theme_color": "#C09F52",
+  "background_color": "#C09F52",
   "icons": [
     {
       "src": "favicon.ico",
