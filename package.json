@@ -1,5 +1,5 @@
 {
-  "version": "6.0.2",
+  "version": "6.0.3",
   "name": "test-harness",
   "description": "Test Harness",
   "scripts": {
@@ -9,8 +9,6 @@
     "deploy": "clear && npm run build && firebase deploy"
   },
   "dependencies": {
-    "@listingslab/icon": "^1.0.6",
-    "@listingslab/weather": "^1.0.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
