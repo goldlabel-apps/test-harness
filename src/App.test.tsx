@@ -2,8 +2,8 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('Renders app title', () => {
+test('Check there is a link to the repo', () => {
   render(<App />);
-  const linkElement = screen.getByText(/Test Harness/i);
+  const linkElement = screen.getByText(/Git Repo/i);
   expect(linkElement).toBeInTheDocument();
 });
