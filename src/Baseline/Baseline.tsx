@@ -1,6 +1,6 @@
 import React from "react"
 import "./gold.css"
-// import { Weather } from "@listingslab/weather"
+import { Weather } from "@listingslab/weather"
 
 function Baseline() {
   return (
@@ -15,7 +15,7 @@ function Baseline() {
           </a>
         </h2>
       </div>
-      {/* <Weather /> */}
+      <Weather />
     </div>
   )
 }
