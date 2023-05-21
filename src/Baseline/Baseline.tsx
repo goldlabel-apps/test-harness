@@ -1,6 +1,6 @@
 import React from "react"
 import "./gold.css"
-// import { Weather } from "@listingslab/weather";
+import { Weather } from "@listingslab/weather";
 // import {Counter} from "@listingslab/icon"
 
 function Baseline() {
@@ -16,7 +16,7 @@ function Baseline() {
           Git Repo
         </a>
 
-        {/* <Weather /> */}
+        <Weather />
       </header>
     </div>
   )
