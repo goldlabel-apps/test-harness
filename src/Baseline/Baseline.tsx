@@ -1,9 +1,12 @@
 import React from "react"
+import "./gold.css"
+
+// import {Counter} from "@listingslab/icon"
 
 function Baseline() {
   return (
     <div>
-      <header>
+      <header style={{background:"white"}}>
         <h2>Test Harness</h2>
         <a
           href="https://github.com/listingslab-goldlabel/test-harness"
@@ -12,6 +15,8 @@ function Baseline() {
         >
           Git Repo
         </a>
+
+        {/* <Counter /> */}
         
       </header>
     </div>
