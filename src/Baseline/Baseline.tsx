@@ -1,23 +1,21 @@
 import React from "react"
 import "./gold.css"
-import { Weather } from "../weather";
-// import {Counter} from "@listingslab/icon"
+// import { Weather } from "@listingslab/weather"
 
 function Baseline() {
   return (
     <div>
-      <header style={{background:"white"}}>
-        <h2>Test Harness</h2>
-        <a
-          href="https://github.com/listingslab-goldlabel/test-harness"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Git Repo
-        </a>
-
-        <Weather />
-      </header>
+      <div>
+        <h2 style={{background:"white"}}>
+          Test Harness
+          <a href="https://github.com/listingslab-goldlabel/test-harness"
+            target="_blank"
+            rel="noopener noreferrer">
+            Git Repo
+          </a>
+        </h2>
+      </div>
+      {/* <Weather /> */}
     </div>
   )
 }

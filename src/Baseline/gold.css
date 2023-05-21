@@ -12,16 +12,12 @@ body {
   padding: 0;
   overflow-x: hidden;
 }
-body {
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 html {
   --scrollbarBG: none;
   --thumbBG: #87703B;
 }
 body {
+  margin: 0;
   background: #C09F52;
   background: linear-gradient(0deg, #87703B 0%, #C09F52 75%);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
